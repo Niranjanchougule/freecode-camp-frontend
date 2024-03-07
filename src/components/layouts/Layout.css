@@ -1,0 +1,43 @@
+.nav-container {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+.layoutsearchbar {
+  background-color: #3b3c50;
+  border-color: solid black;
+  width: 300px;
+  color: white;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 23px;
+  color: white;
+}
+.butt-container {
+  display: flex;
+  padding: 3px;
+  gap: 35px;
+  color: white;
+}
+.logout-button {
+  background-color: black;
+  border: solid white;
+  color: white;
+}
+.signinbutton {
+  background-color: #ffbe41;
+  border: solid #feac32;
+}
+
+.child-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

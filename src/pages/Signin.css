@@ -1,0 +1,74 @@
+body {
+  background-color: #d0d0d5;
+}
+.signinbox-container {
+  padding: 20px;
+  background-color: white;
+  border: solid black;
+  border-width: 2px;
+  font-size: larger;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signinbox-form {
+  display: flex;
+  flex-direction: column;
+  /* padding: 50px; */
+  gap: 10px;
+}
+
+.signinbox-form .error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.login-emailbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-emailbox .loginbox-edit {
+  position: absolute;
+  right: 11px;
+  background: white;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.signup-emailbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-emailbox .signup-emailbox-edit {
+  position: absolute;
+  right: 11px;
+  background: white;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.signinbox-container input {
+  box-sizing: border-box;
+  padding: 10px; /* Increase padding to make the input fields bigger */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px; /* Increase font size to make the input fields bigger */
+}
+
+.signinbox-container .signin-button-custom {
+  box-sizing: border-box;
+  padding: 10px; /* Increase padding to make the input fields and buttons bigger */
+  border: 1px solid #ccc;
+  font-size: 18px; /* Increase font size to make the input fields and buttons bigger */
+  background-color: #f1be32;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.course {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.course .details {
+  padding-bottom: 10px;
+}
+
+.course h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.course p {
+  margin-bottom: 10px;
+}
+
+.course .topics {
+  margin-bottom: 10px;
+}
+
+.course .topics h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.course .topics ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.course .topics li {
+  margin-bottom: 5px;
+}
+
+.course .tags .tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: 14px;
+}
