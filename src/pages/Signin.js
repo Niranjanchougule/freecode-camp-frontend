@@ -71,7 +71,6 @@ function VerifyEmail({ verifedEmail, setIsExisting, setVerifiedEmail }) {
           `https://pacific-lake-83566-ac3ea723e471.herokuapp.com/verify-existing-email?email=${email}`
         )
         .then(function (response) {
-          console.log(response.data);
           if (response.data) {
             setIsExisting(true);
           } else {
@@ -123,8 +122,6 @@ function Login({ verifiedEmail, setIsExisting }) {
         formData
       );
 
-      // Handle successful login
-      console.log("Login successful:", response.data);
       // get the jwt and store in localstorage
       localStorage.setItem("token", response.data.token);
       navigate("/course-list");

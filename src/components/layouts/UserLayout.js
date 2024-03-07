@@ -19,7 +19,6 @@ function UserLayout(props) {
         }
       )
       .then((result) => {
-        console.log(result.data);
         setUser(result.data);
       });
   }, []);

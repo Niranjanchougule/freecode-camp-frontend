@@ -29,7 +29,6 @@ const Course = () => {
         }
       )
       .then((result) => {
-        console.log(result);
         setCourse(result.data);
       });
   }, []);
